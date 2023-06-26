@@ -8,6 +8,7 @@ public class MsProdigiCountApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MsProdigiCountApplication.class, args);
+		System.out.println("HOLA MUNDO");
 	}
 
 }
