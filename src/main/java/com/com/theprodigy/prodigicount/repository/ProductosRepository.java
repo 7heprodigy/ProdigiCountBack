@@ -13,6 +13,6 @@ import com.com.theprodigy.prodigicount.entity.Producto;
  * @version 1.0 06/26/2023
  * Interface que contiene el CRUD con jpa para la tabla productos.
  */
-public interface ProductosRepository extends CrudRepository<Producto, Long> {
+public interface ProductosRepository extends CrudRepository<Producto, Integer> {
 
 }
